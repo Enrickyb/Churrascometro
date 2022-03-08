@@ -9,10 +9,17 @@
 </head>
 <body>
     <header>
-        <h1>Churrascometro</h1>
+        <h1>Churrascômetro</h1>
     </header>
     <main>
-        <div class="churras">
+        <div class="bem-vindo" id="bv">
+            <h1>Bem vindo ao Churrascômetro</h1>
+            <p>Aqui será possivel calcular a quantidade correta de carne e bebidas para o seu churrasco</p>
+            <p>Foi levado em consideração que em média um adulto come 400g carne, bebe 1,2L de cerveja e 1L de água/refrigerante</p>
+            <input type="submit" value="Continuar" onclick="continuar()">
+            
+        </div>
+        <div class="churras" id="bf">
             <p><input type="number" name="Adultos" id="adultos" placeholder="Adultos"></p>
             <p><input type="number" name="" id="crianças" placeholder="Crianças"></p>
             <p><input type="number" name="Duração" id="duração" placeholder="Duração"></p>
@@ -22,7 +29,7 @@
         </div>
     </main>
     <footer>
-        <h2>Made by Enricky Biazatti🚀</h2>
+        <h2>Made by <a href="https://github.com/Enrickyb" target="_blank">Enricky Biazatti</a></h2>
     </footer>
     <script src="script.js"></script>
 </body>
