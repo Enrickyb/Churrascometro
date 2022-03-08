@@ -56,8 +56,5 @@ function calcular() {
     res.innerHTML += (`<p>${refri} Garrafas de 2L de refrigerante</p>`)
     }
     
-    
-    
-
 }
 
