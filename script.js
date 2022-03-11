@@ -3,13 +3,17 @@
 //Refrigerante/Agua = 1000 ml por pessoa / se a duração for maior que 6 horas = 1500ml por pessoa
 //Crianças valem metade de uma pessoa 0.5
 
+
 function continuar(){
     let welcome = document.getElementById('bv')
     let churr = document.getElementById('bf')
     welcome.style.display = 'none'
-
     churr.style.display = 'flex'
+    
+       
+
 }
+
 
 let res = document.getElementById ('resultado')
 let adultos = document.getElementById ('adultos')
